@@ -14,7 +14,6 @@ serde_json = "1.0.149"
 tokio = { version = "1.52.1", features = ["rt-multi-thread"] }
 
 [dev-dependencies]
-pipeweaver-profile = { git = "https://github.com/pipeweaver/pipeweaver", tag = "v0.1.6" }
 pipeweaver-shared = { git = "https://github.com/pipeweaver/pipeweaver", tag = "v0.1.6" }
 
 tokio = { version = "1.52.1", features = ["rt-multi-thread", "signal"] }
