@@ -4,17 +4,17 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-pipeweaver-ipc = { git = "https://github.com/pipeweaver/pipeweaver", commit = "228bf6b" }
+pipeweaver-ipc = { git = "https://github.com/pipeweaver/pipeweaver", tag = "v0.1.9" }
 tokio-tungstenite = "0.29.0"
 futures-util = "0.3.32"
 json-patch = "4.1.0"
-anyhow = "1.0.102"
+anyhow = "^1.0"
 log = "0.4.29"
 serde_json = "1.0.149"
 tokio = { version = "1.52.1", features = ["rt-multi-thread"] }
 
 [dev-dependencies]
-pipeweaver-shared = { git = "https://github.com/pipeweaver/pipeweaver", commit = "228bf6b" }
+pipeweaver-shared = { git = "https://github.com/pipeweaver/pipeweaver", tag = "v0.1.9" }
 
 tokio = { version = "1.52.1", features = ["rt-multi-thread", "signal"] }
 ulid = "1.2.1"
